@@ -1,0 +1,11 @@
+LV-17
+nmap -p 31000-32000 -sV localhost
+echo cluFn7wTiGryunymYOu4RcffSxQluehd | openssl s_client -quiet -connect localhost:31790
+
+RSA PRIVATE KEY SEARCHING
+
+touch /tmp/key.key
+nano /tmp/key.key
+cd /tmp
+chmod 600 key.key
+ssh -i key.key bandit17@localhost

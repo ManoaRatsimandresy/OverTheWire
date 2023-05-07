@@ -1,0 +1,6 @@
+LEVEL 19
+ssh -T bandit18@localhost
+cat readme
+
+MDP :
+IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x

@@ -1,0 +1,11 @@
+LV-13
+
+mkdir /temp/RianAina
+xxd -r data.txt > /temp/RianAina/data.txt
+cd /temp/RianAina
+zcat data.txt | bzcat | zcat | tar xO | tar xO | bzcat | tar xO | zcat
+cd -
+rm -r /temp/RianAina
+
+MDP :
+8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL

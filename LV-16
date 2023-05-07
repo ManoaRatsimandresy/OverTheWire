@@ -1,0 +1,5 @@
+LV-16
+openssl s_client -connect localhost:30001
+
+MDP :
+cluFn7wTiGryunymYOu4RcffSxQluehd
