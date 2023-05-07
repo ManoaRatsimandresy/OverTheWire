@@ -1,0 +1,9 @@
+LV-29
+
+cd /tmp/
+git clone ssh://bandit27-git@localhost/home/bandit27-git/repo
+cd repo
+git log -p 
+
+MDP :
+bbc96594b4e001778eee9975372716b2

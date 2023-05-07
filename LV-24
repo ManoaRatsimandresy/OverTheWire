@@ -1,0 +1,14 @@
+LV-24
+
+cd /etc/cron.d
+cat cronjob_bandit24
+cd /var/spool/bandit24
+touch t.sh
+nano t.sh
+t.sh
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 > /tmp/tmp_pass
+cat /tmp/tmp_pass
+
+MDP :
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ

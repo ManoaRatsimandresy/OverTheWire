@@ -1,0 +1,11 @@
+LV-21
+
+tmux
+Ctrl+b c
+Shell 1:
+nc -l 1234 < /etc/bandit_pass/bandit20
+Shell 2:
+./suconnect 1234
+
+MDP :
+gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr

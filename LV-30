@@ -1,0 +1,11 @@
+LV-30
+
+cd /tmp
+git clone ssh://bandit29-git@localhost/home/bandit29-git/repo 
+cd repo
+git branch -r # check branchs
+git checkout dev
+git log -
+
+MDP :
+5b90576bedb2cc04c86a9e924ce42faf
